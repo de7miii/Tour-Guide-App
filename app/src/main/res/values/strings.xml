@@ -1,3 +1,84 @@
 <resources>
-    <string name="app_name">Tout Guide</string>
+    <string name="app_name">Tour Guide</string>
+    <string name="map_location_query_string">geo:0,0?q=</string>
+    <string name="omdurman_souq_name">Omdurman Souq</string>
+    <string name="omdurman_souq_desc">This is the largest and the most famous and vibrant souq in the country!
+        The souq is abuzz with noise and color,
+        and gives visitors the opportunities to buy souvenirs and crafts.</string>
+    <string name="kassala_souq_name">Kassala Souq</string>
+    <string name="kassala_souq_desc">Kassala has one of Sudan\'s best markets, and a visit is a must.
+        It\'s a maze of alleys and side streets lined with shops and stalls where myriad items are sold,
+        from traditional products like cloth, jewels, henna or spice, to plastic buckets and electronic goods.
+        One section of the souq caters mainly to Rashaida nomads.
+        The magnificent Rashaida women are famous for their black-and-red geometrically patterned dresses,
+        and their long, heavy veils elaborately embroidered with silver thread, beads and sometimes seed pearls.</string>
+    <string name="fish_market_name">Fish Market</string>
+    <string name="fish_market_desc">Port Sudan has a vibrant fishing industry, and the lively fish market near the beach is a sight to behold.
+        The men are amazingly deft at gutting, scaling and skinning their catches. It\'s an incredibly photogenic place.</string>
+    <string name="central_market_name">Central Market</string>
+    <string name="central_market_desc">One of the most crowded sites in Khartoum,
+        containing all types of goods ranging from vegetables to car spare parts,
+        all available at a reasonable prices and considered the central point of the city as it is considered also the central Bus Station of the city.</string>
+    <string name="camel_market_name">Camel Market</string>
+    <string name="camel_market_desc">On the far western edge of Khartoum,
+        this market is spectacular, especially on Saturday, but there is no public transport (a taxi will cost at least S£150).
+        The majority of camels come from Darfur.</string>
+    <string name="soleb_temple_name">The temple of Soleb</string>
+    <string name="soleb_tmeple_desc">If you come from Egypt, the temple of Soleb will likely be your first historical sight in Sudan.
+        The temple of Soleb is one of the best-preserved sandstone temples on the Sudanese Nile.
+        It was built by Pharaoh Amenhotep III in the 14th century on the west bank of the Nile.
+        To get there, you need to take a taxi from Abri to Wawa,
+        then walk through a few agricultural fields and finally cross the — sometimes tumultuous — Nile.
+        The boatman is not always present, so you need to ask around beforehand in Abri or Wawa if there is someone available to transport you.</string>
+    <string name="maroe_pyramids_name">The pyramids of Meroë</string>
+    <string name="maroe_pyramids_desc">Meroë was once the central city of the Kingdom of Kush,
+        which was ruled by the Nubian kings, also known as the “Black Pharaohs,” from the 8th century BC to the 4th century AD.
+        Meroë was the site of most royal burials in pyramid tombs in this period.
+        Today, there are more than 100 pyramids standing in the sand dunes of the Nubian desert at Meroë.
+        The pyramids are smaller and narrower than their Egyptian counterparts, but equally impressive.
+        You can enter some of the pyramids and admire the hieroglyphs and carvings up close on your own.</string>
+    <string name="barkal_mountain_name">Barkal Mountain</string>
+    <string name="barkal_mountain_desc">Gebel Barkal is a sandstone butte near the present-day town of Karima
+        that has gained the status of UNESCO World Heritage site. The Egyptians, and later the Kushites,
+        believed that Amon (god of gods) lived in this “Holy Mountain.” Around the butte, and stretching for more than 37 miles,
+        are four archeological sites: Kurru, Nuri, Sanam, and Zuma. These include tombs, with and without pyramids, temples,
+        burial mounds and chambers, living complexes, and palaces. The best time to visit Gebel Barkal is around sunset.
+        Sunset is also a popular time for the local youth to climb Gebel Barkal and enjoy the spectacular desert views.</string>
+    <string name="musawwarat_name">Musawwarat es-Sufra</string>
+    <string name="musawwarat_desc">Musawwarat is the largest Meroitic temple complex in Sudan.
+        Its purpose remains a little unclear, though it\'s believed to have served as a pilgrimage site.
+        The enormous Great Enclosure consists of numerous tumbledown columns and walls carved with reliefs of wild animals that once inhabited this region.
+        Check out the former elephant stables and the marriage room with the engravings of newly-weds getting to know one another.</string>
+    <string name="sai_island_name">Sai Island</string>
+    <string name="sai_island_desc">With a temple from Egypt\'s Middle Kingdom, an Ottoman fort and a medieval church among the many ruins,
+        Sai Island is something of a synopsis of ancient Sudanese history. The fort is actually built on the foundations of a 1500 BC Egyptian town,
+        and the ground around the ruins is littered with millions of bits of broken pottery.
+        Little but three upright granite columns and a few walls remain of the medieval church,
+        but physically it\'s probably the most striking site on the island.</string>
+    <string name="national_museum_name">National Museum</string>
+    <string name="national_museum_desc">This museum, the best in Sudan, has some breathtaking exhibits. The ground floor covers the rise and fall of the kingdoms of Kerma, Kush and Meroe. There\'s some stunning royal statues and perfectly preserved 3500-year-old artefacts from Kerma. Upstairs are numerous medieval Christian frescos removed from the ruined churches of Old Dongola and elsewhere. Outside are some temples rescued, Abu Simbel–style, from the rising waters of Lake Nasser. Allow at least 1½ to two hours for a visit.</string>
+    <string name="kerma_museum_name">Kerma Museum</string>
+    <string name="kerma_museum_desc">Next to Kerma\'s western deffufa is this well organised museum that contains interesting relics from the site, including seven imposing granite statues and various Nubian artefacts. There\'s also a section dedicated to the Christian and Islamic heritage of the area.</string>
+    <string name="ethnographic_museum_name">Ethnographic Museum</string>
+    <string name="ethnographic_museum_desc">This museum contains a small but fascinating collection of tribal artefacts from across Sudan. Displays are ordered by geographic region and illustrate how people adapt to each climatic area. It begins with the tropics of (what is now) South Sudan followed by the savannah regions south of Khartoum, finishing up with the deserts of the north.</string>
+    <string name="karima_museum_name">Karima Museum</string>
+    <string name="karima_museum_desc">This small museum near the Temple of Amun contains finds from around Jebel Barkal, including statues. There are panels in English. It also sells tickets to El Kurru and Nuri.</string>
+    <string name="republican_palace_museum_name">Republican Palace Museum</string>
+    <string name="republican_palace_museum_desc">Housed in a converted Anglican church, this is a hall of heroes, of sorts, with mementos such as presidential limos and General Gordon\'s piano. It\'s worth a peek more for its architecture than its collections.</string>
+    <string name="kurru_name">El Kurru</string>
+    <string name="kurru_desc">The royal cemetery of El Kurru, 20km south of Karima, contains the remains of dozens of tombs. Most have either faded away to virtually nothing, or the entrances have been buried under tonnes of sand. However, two tombs containing wonderfully preserved paintings, can still be entered down a flight of stairs cut out of the rock. Dating to the 7th century BC, they were the final resting place of King Tanwetamani and his mother, Queen Qalhata.</string>
+    <string name="old_dongola_name">Old Dongola</string>
+    <string name="old_dongola_desc">The city of Old Dongola was capital of the Christian kingdom of Makuria between the 7th and 14th centuries and at its peak it was home to dozens of churches. The church exteriors were generally plain, but the interiors were painted in beautiful frescos – some of which are found in Khartoum\'s National Museum. Today little but scattered blocks, tumbledown walls and a few rows of columns remain of Old Dongola, but the sand-swept setting is sublime and you\'ll have the place to yourself.</string>
+    <string name="suakin_island_name">Suakin Island</string>
+    <string name="suakin_island_desc">Suakin Island was Sudan\'s only port before the construction of Port Sudan. Abandoned in the 1930s, it\'s now a melancholy ghost town, full of crumbling coral buildings, demonic cats said to be cursed, and circling kites and hawks with a devil\'s shrill call. A few buildings have been recently renovated by Turkish investors. The ruins, connected to the mainland by a short causeway, are fascinating to explore.</string>
+    <string name="housh_name">Al-Housh</string>
+    <string name="housh_desc">Everyone, from cabbies to well-heeled families, flocks to this legendary eatery in Omdurman, where you dine like a prince and pay like pauper. Loosen that belt for succulent agashi (fish or meat seared over charcoal), heaping helpings of salads and perky meatballs. The enormous dining room has bags of character.</string>
+    <string name="assaha_village_name">Assaha Village</string>
+    <string name="assaha_village_desc">With its vaulted dining room, brick walls and elegantly set tables, Assaha is poised to take you on a culinary magic-carpet ride. Nibble on a platter of olives while perusing the huge menu, perhaps settling on delicious meze (with great hummus) followed by a classic shwarma. The attractive terrace at the back is highly sought after at dinner.</string>
+    <string name="fish_wok_name">Fish Wok</string>
+    <string name="fish_wok_desc">Everyone loves an insider\'s tip, and Fish Wok is that easy-to-miss \'secret spot\' that locals like to recommend. Hidden behind a row of dull multistory buildings, it prepares delectable fish dishes – the bulti (Nile perch) served with bread and salad is the best we\'ve had in Sudan. The setting is appealing too, with wooden low tables and chairs under a vast tent.</string>
+    <string name="amwaj_name">Amwaj</string>
+    <string name="amwaj_desc">A Khartoum institution. The waiters are snappy, ingredients are fresh, and prices are reasonable for scrumptious dishes such as grilled chicken, roast lamb and shwarma. Those who enjoy a sweet at the end of the meal will be impressed by the delicious baklava and other treats on offer. Some might find the decor a bit too hospital-like but that\'s the only gripe.</string>
+    <string name="laziz_name">Laziz</string>
+    <string name="laziz_desc">Elbows out – this is indisputably the most popular eatery in the centre of Khartoum and it\'s always busy, whether it be with takeaway orders, hungry employees helping themselves at the salad bar, or friends simply sipping a cup of tea on the outdoor terrace in the evening. One thing is sure: its shwarma is the best this side of the Nile.</string>
 </resources>

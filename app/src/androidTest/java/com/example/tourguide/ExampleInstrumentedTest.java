@@ -1,4 +1,4 @@
-package com.example.toutguide;
+package com.example.tourguide;
 
 import android.content.Context;
 
