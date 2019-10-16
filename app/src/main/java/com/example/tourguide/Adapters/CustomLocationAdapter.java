@@ -10,7 +10,7 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.tourguide.Location;
+import com.example.tourguide.Model.Location;
 import com.example.tourguide.R;
 
 import java.util.ArrayList;
@@ -21,9 +21,11 @@ public class CustomLocationAdapter extends RecyclerView.Adapter<CustomLocationAd
     private Context mContext;
 
     private ArrayList<Location> mLocationsList;
+    private OnItemClickListener mOnItemClickListener;
 
-    public CustomLocationAdapter(Context context) {
+    public CustomLocationAdapter(Context context, OnItemClickListener onItemClickListener) {
         mContext = context;
+        mOnItemClickListener = onItemClickListener;
     }
 
     @NonNull
@@ -41,10 +43,10 @@ public class CustomLocationAdapter extends RecyclerView.Adapter<CustomLocationAd
 
     @Override
     public int getItemCount() {
-        return mLocationsList != null? mLocationsList.size(): 0;
+        return mLocationsList != null ? mLocationsList.size() : 0;
     }
 
-    class CustomLocationViewHolder extends RecyclerView.ViewHolder {
+    class CustomLocationViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
         ImageView locationImage;
         TextView locationName;
         TextView locationDesc;
@@ -54,6 +56,7 @@ public class CustomLocationAdapter extends RecyclerView.Adapter<CustomLocationAd
             locationImage = itemView.findViewById(R.id.img_location);
             locationName = itemView.findViewById(R.id.text_location_name);
             locationDesc = itemView.findViewById(R.id.text_location_desc);
+            itemView.setOnClickListener(this);
         }
 
         void bind(Location location) {
@@ -65,12 +68,19 @@ public class CustomLocationAdapter extends RecyclerView.Adapter<CustomLocationAd
             locationName.setText(location.getName());
             locationDesc.setText(location.getDescription());
         }
+
+        @Override
+        public void onClick(View v) {
+            int position = getAdapterPosition();
+            mOnItemClickListener.onItemClick(position);
+        }
     }
 
     public void updateLocationsList(ArrayList<Location> locations) {
         mLocationsList = locations;
     }
-    public interface OnItemClickListener{
-        public void onItemClick(int position);
+
+    public interface OnItemClickListener {
+        void onItemClick(int position);
     }
 }

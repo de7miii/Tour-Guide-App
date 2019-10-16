@@ -17,9 +17,11 @@
         <ImageView
             android:id="@+id/img_location"
             android:layout_width="100dp"
-            android:layout_height="120dp"
+            android:layout_height="130dp"
             android:scaleType="centerCrop"
-            tools:src="@drawable/ic_launcher_background" />
+            android:contentDescription="@string/image_desc"
+            tools:src="@drawable/ic_launcher_background"
+            />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -27,20 +29,34 @@
             android:orientation="vertical">
 
             <TextView
+                style="@style/NameStyle"
                 android:id="@+id/text_location_name"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
                 android:layout_marginTop="8dp"
                 android:layout_marginEnd="8dp"
+                android:ellipsize="end"
                 tools:text="Location Name" />
 
             <TextView
+                style="@style/DescStyle"
                 android:id="@+id/text_location_desc"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
                 android:layout_margin="8dp"
+                android:ellipsize="end"
+                android:maxLines="2"
                 tools:text="Location Description" />
+
+            <com.google.android.material.button.MaterialButton
+                style="@style/Widget.MaterialComponents.Button.TextButton"
+                android:id="@+id/btn_more"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_gravity="end"
+                android:clickable="false"
+                android:text="@string/more_btn_text"/>
         </LinearLayout>
     </LinearLayout>
 </androidx.cardview.widget.CardView>
