@@ -81,4 +81,7 @@
     <string name="amwaj_desc">A Khartoum institution. The waiters are snappy, ingredients are fresh, and prices are reasonable for scrumptious dishes such as grilled chicken, roast lamb and shwarma. Those who enjoy a sweet at the end of the meal will be impressed by the delicious baklava and other treats on offer. Some might find the decor a bit too hospital-like but that\'s the only gripe.</string>
     <string name="laziz_name">Laziz</string>
     <string name="laziz_desc">Elbows out – this is indisputably the most popular eatery in the centre of Khartoum and it\'s always busy, whether it be with takeaway orders, hungry employees helping themselves at the salad bar, or friends simply sipping a cup of tea on the outdoor terrace in the evening. One thing is sure: its shwarma is the best this side of the Nile.</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

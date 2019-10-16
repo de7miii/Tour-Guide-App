@@ -16,7 +16,7 @@ public class Repository {
     private ArrayList<Location> mRestaurantList;
 
     private Repository(Context context) {
-        mContext = context;
+        mContext = context.getApplicationContext();
         if (sRepository != null) {
             throw new RuntimeException("Use getInstance() method to get the single instance of this class.");
         }
@@ -33,6 +33,7 @@ public class Repository {
     private void initData() {
 
         //init markets list with locations.
+        mMarketsList = new ArrayList<>();
         mMarketsList.add(new Location(mContext.getString(R.string.omdurman_souq_name),
                 mContext.getString(R.string.omdurman_souq_desc), 0));
         mMarketsList.add(new Location(mContext.getString(R.string.kassala_souq_name),
@@ -45,6 +46,7 @@ public class Repository {
                 mContext.getString(R.string.camel_market_desc), 0));
 
         //init historical sites list with locations.
+        mHistoricalSitesList = new ArrayList<>();
         mHistoricalSitesList.add(new Location(mContext.getString(R.string.soleb_temple_name),
                 mContext.getString(R.string.soleb_tmeple_desc), 0));
         mHistoricalSitesList.add(new Location(mContext.getString(R.string.maroe_pyramids_name),
@@ -57,6 +59,7 @@ public class Repository {
                 mContext.getString(R.string.sai_island_desc), 0));
 
         //init museums list with locations.
+        mMuseumsList = new ArrayList<>();
         mMuseumsList.add(new Location(mContext.getString(R.string.national_museum_name),
                 mContext.getString(R.string.national_museum_desc), 0));
         mMuseumsList.add(new Location(mContext.getString(R.string.kerma_museum_name),
@@ -69,6 +72,7 @@ public class Repository {
                 mContext.getString(R.string.republican_palace_museum_desc), 0));
 
         //init ruins list with locations.
+        mRuinsList = new ArrayList<>();
         mRuinsList.add(new Location(mContext.getString(R.string.kurru_name),
                 mContext.getString(R.string.kurru_desc), 0));
         mRuinsList.add(new Location(mContext.getString(R.string.old_dongola_name),
@@ -77,6 +81,7 @@ public class Repository {
                 mContext.getString(R.string.suakin_island_desc), 0));
 
         //init restaurants list with locations.
+        mRestaurantList = new ArrayList<>();
         mRestaurantList.add(new Location(mContext.getString(R.string.housh_name),
                 mContext.getString(R.string.housh_desc), 0));
         mRestaurantList.add(new Location(mContext.getString(R.string.assaha_village_name),
@@ -87,5 +92,25 @@ public class Repository {
                 mContext.getString(R.string.amwaj_desc), 0));
         mRestaurantList.add(new Location(mContext.getString(R.string.laziz_name),
                 mContext.getString(R.string.laziz_desc), 0));
+    }
+
+    public ArrayList<Location> getMarketsList() {
+        return mMarketsList;
+    }
+
+    public ArrayList<Location> getHistoricalSitesList() {
+        return mHistoricalSitesList;
+    }
+
+    public ArrayList<Location> getMuseumsList() {
+        return mMuseumsList;
+    }
+
+    public ArrayList<Location> getRuinsList() {
+        return mRuinsList;
+    }
+
+    public ArrayList<Location> getRestaurantList() {
+        return mRestaurantList;
     }
 }
